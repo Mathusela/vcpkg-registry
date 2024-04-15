@@ -1,0 +1,5 @@
+
+mjr-lib is header-only and can be used from CMake via:
+
+    find_path(MJR_LIB_INCLUDE_DIRS mjr)
+    target_include_directories(main PRIVATE ${MJR_LIB_INCLUDE_DIRS})
